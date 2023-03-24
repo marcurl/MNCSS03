@@ -1,0 +1,44 @@
+#title {
+    color: salmon;
+    font-style: italic;
+    font-size: 54px;
+    text-align: center;
+    font-family: Arial;
+}
+
+
+#description, #castList, #year, #name {
+    width: 300px;
+    float: left;
+    clear: left;
+    font-family: Arial;
+}
+
+#description {
+    background-color: salmon;
+}
+
+#castList {
+    background-color: gainsboro;
+    font-family: Arial;
+}
+
+#poster {
+    float: right;
+    clear: right;
+    width: 280px;
+    height: 400px;
+}
+
+#year {
+    font-size: 24px;
+    color: green;
+    font-family: Arial;
+}
+
+#moviePic {
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+    z-index: -1;
+}
